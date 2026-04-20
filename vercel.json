@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "1.oauth",
+      "src": "1. OAuth",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "1.oauth"
+      "dest": "1. OAuth"
     }
   ]
 }
