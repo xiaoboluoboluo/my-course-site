@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "1. OAuth",
+      "src": "app.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "1. OAuth"
+      "dest": "app.py"
     }
   ]
 }
